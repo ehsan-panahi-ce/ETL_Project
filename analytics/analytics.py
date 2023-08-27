@@ -58,6 +58,6 @@ except OperationalError as e:
     print(e)
     sleep(0.1)
 
-df.to_sql('devices_aggregated', mysql_engine, if_exists='append')
+df.to_sql('devices_aggregated', mysql_engine, if_exists='append', index=False)
 
 print('ETL completed successfully!')
