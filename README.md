@@ -14,3 +14,9 @@ The result:
 
 2. Aggregated data is stored in 'devices_aggregated" table in mysql:
 ![devices table](screenshots/aggregated.PNG)
+
+#################
+Follow-up tasks:
+1. Aggregate over 'devices_aggregated' via view table.
+2. Schedule the analytics.py to run on a specific times.
+3. Connect visualization tools to the tables.
