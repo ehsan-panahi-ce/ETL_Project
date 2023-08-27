@@ -7,16 +7,14 @@ It will launch the analytics.py script.
 
 Your task will be to write the ETL script inside the analytics/analytics.py file.
 
-#################
-The result:
+##The result
 1. The Raw data is stored in 'devices' table in postgresql:
 ![devices table](screenshots/devices.PNG)
 
 2. Aggregated data is stored in 'devices_aggregated" table in mysql:
 ![devices table](screenshots/aggregated.PNG)
 
-#################
-Follow-up tasks:
+##Follow-up tasks
 1. Aggregate over 'devices_aggregated' via view table.
 2. Schedule the analytics.py to run on a specific times.
 3. Connect visualization tools to the tables.
